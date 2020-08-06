@@ -1,0 +1,199 @@
+body{
+    background-color: white;
+    width: 1300px;
+    height: 2000px;
+    margin: -5px 50px 50px 80px;
+
+}
+#head{
+    background-color: cornflowerblue;
+    height: 100px;
+    width: 1300px;
+    border-radius: 10px;
+    margin-top: 0;
+    position: relative;
+    position: fixed;
+
+
+
+}
+.logo a{
+    background: green;
+    width: 60px;
+    height: 50px;
+    margin: 20px 20px 20px 50px;
+    position: absolute;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    float: left;
+
+}
+.search{
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 500px;
+    float: left;
+}
+input[type=text]{
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    float: left;
+}
+
+input[type=submit]{
+    background: chocolate;
+    width: 60px;
+    height: 20px;
+    margin-left: 320px;
+    margin-top: 37px;
+    float: left;
+
+}
+
+.title{
+    background: green;
+    margin-top: 5px;
+}
+
+.title .trangChu{
+    background: bisque;
+    margin-top: 112px;
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    float: left;
+}
+/*.title .trangChu:hover{*/
+/*    background: brown;*/
+/*}*/
+
+.title .theLoai{
+    background: bisque;
+    margin-top: 112px;
+    margin-left: 6px;
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    float: left;
+}
+
+
+.truyenTop{
+    background: red;
+    height: 70px;
+    width: 150px;
+    clear: both;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 200%;
+    /*position: absolute;*/
+    border-radius: 10px;
+}
+
+.chuDe{
+    background: seagreen;
+    width: 180px;
+    height: 700px;
+    margin-top: 10px;
+    /*position: relative;*/
+    float: left;
+    border-radius: 10px;
+}
+
+.select{
+
+
+    margin-top: 34px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+#menu{
+    width: 1110px;
+    height: 700px;
+    background: khaki;
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+.doraemon{
+    margin-top: 30px;
+    margin-left: 60px;
+    float: left;
+}
+
+.conan{
+    margin-top: 30px;
+    margin-left: 40px;
+    float: left;
+}
+
+.tony{
+    margin-top: 30px;
+    margin-left: 40px;
+    float: left;
+}
+
+.htvpd{
+    margin-top: -20px;
+    margin-left: 60px;
+    float: left;
+
+}
+
+.nkxc{
+    margin-top: -20px;
+    margin-left: 40px;
+    float: left;
+
+}
+
+.khongGiaDinh{
+    margin-top: -20px;
+    margin-left: 40px;
+    float: left;
+
+}
+.text{
+    width: 200px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 5px;
+    font-size: 20px;
+
+    color: black;
+    align-content: center;
+}
+
+.text2{
+    width: 250px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 5px;
+    font-size: 20px;
+    color: black;
+    align-content: center;
+}
+
+.tenTrang{
+
+    font-size: 30px;
+    margin-top: 25px;
+    margin-left: 128px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    color: brown;
+}
+
+

@@ -1,0 +1,72 @@
+.small{
+    width: 1000px;
+    height: 30px;
+    background-color: cornflowerblue;
+
+}
+
+.btn-head{
+    color: white;
+    margin-left: 10px;
+}
+
+.btn-head-1{
+    color: white;
+    margin-left: 200px;
+}
+.img{
+    width: 1433px;
+    height: 150px;
+    margin-left: -100px;
+}
+
+.text-title-baner{
+    width: 700px;
+    height: 50px;
+    margin-left: 340px;
+    /*background-color: #0c5460;*/
+    text-align: center;
+    font-size: 37px;
+}
+
+.bg-blue{
+    background-color:#0769ad;
+}
+
+.navbar-margin{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: -20px;
+
+}
+.search{
+    height: 30px;
+    width: 400px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 400px;
+}
+
+.bg-blue-navbar{
+    background:rgba(0,0,0,0.18 );
+}
+.bg-menu{
+    background-color: #0b2e13;
+    margin-top: -20px;
+}
+
+ul {
+    list-style-image: url('http://agilearn.vn/draftfile.php/263/user/draft/510120718/bullet_red%20_2.png');
+}
+
+.selection{
+    margin-left: 20px;
+}
+
+.menu-title{
+    color: gray;
+    margin-top: 40px;
+}
+.selector-for-some-widget {
+    box-sizing: content-box;
+}

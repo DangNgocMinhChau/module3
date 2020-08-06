@@ -1,0 +1,81 @@
+body {
+
+    width: 1300px;
+    height: 1000px;
+    background: brown;
+}
+
+#background {
+    background-color: cornflowerblue;
+    margin-left: 100px;
+    width: 850px;
+    height: 900px;
+}
+
+.menu {
+    background-color: darkblue;
+    width: 300px;
+    height: 900px;
+    float: left;
+}
+
+.logo {
+    background: darkblue;
+    margin: 70px 106px 10px 50px;
+}
+
+.text {
+    background-color: cornflowerblue;
+    border: black 1px dotted;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 500px;
+    height: 870px;
+    float: left;
+}
+
+.text1 {
+
+    margin-top: 50px;
+    align-content: center;
+}
+
+.text2 {
+    margin-top: 52px;
+}
+
+h1 {
+    font-size: 18px;
+    margin-left: 47px;
+    color: white;
+}
+
+p {
+    font-size: 15px;
+    margin-left: 47px;
+    width: 200px;
+    color: white;
+}
+
+.conten1 {
+    font-size: 15px;
+    margin-left: 47px;
+    width: 200px;
+
+    color: white;
+}
+
+.title {
+    color: black;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.contentTitle {
+    padding-left: 1.8cm;
+}
+
+.contentTitle2 {
+    padding-left: 3.6cm;
+}

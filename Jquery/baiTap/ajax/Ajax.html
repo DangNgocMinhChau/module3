@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script
+            src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+            crossorigin="anonymous"></script>
+</head>
+<body>
+<table border="1px" >
+    <tr>
+        <td>id</td>
+        <td>Name</td>
+        <td>Gender</td>
+        <td>Birthday</td>
+        <td>Phone number</td>
+        <td>Address</td>
+
+    </tr>
+    <tbody id="row">
+    </tbody>
+</table>
+
+
+<script>
+    $(document).ready(function () {
+        $.ajax({
+            type: "Get",
+            url: "https://spring-student-api.herokuapp.com/info?apiKey=eaf118ab-babf-43ed-a788-b66d2f0ca00c",
+            dataType: "json",
+            success: function (listStudent) {
+                console.log(listStudent);
+                table(listStudent)
+            },
+        });
+    })
+
+    function table(listStudent) {
+        let row = "";
+        $.each(listStudent, function (i, listStudent) {
+            row += "<tr>" +
+                "<td>" + listStudent.id + "</td>" +
+                "<td>" + listStudent.fullName + "</td>" +
+                "<td>" + listStudent.gender + "</td>" +
+                "<td>" + listStudent.birthDate + "</td>" +
+                "<td>" + listStudent.phoneNumber + "</td>" +
+                "<td>" + listStudent.address + "</td>"
+                + "</tr>";
+        });
+        document.getElementById("row").innerHTML = row;
+    }
+</script>
+</body>
+</html>
